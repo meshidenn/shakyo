@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css" type="text/css" />
+<!-- A few CSS style rules-->
+<style>
+    svg#chart {
+        background:  lightgray;
+    }
+</style>
+
+<svg id="chart" width="300" height="225">
+    <circle r="15" cx="100" cy="50"></circle>
+    <line x1="20" y1="20" x2="20" y2="130"></line>
+    <line x1="20" y1="130" x2="280" y2="130"></line>
+    <rect x="240" y="5" width="55" height="30"></rect>
+    <polygon points="210,100, 230,100, 220,80"></polygon>
+    <text id="title" text-anchor="middle" x="150" y="20">
+        A Dymmy Chart
+    </text>
+    <text x="20" y="20" transform="rotate(-90, 20, 20)"
+    text-anchor="end" dy="0.71em">y axis label</text>
+    <path d="M20 130L60 70L110 100L160 45"></path>
+</svg>
+
+<!-- Third-party libraries and ous JS script.-->
+<scrpit src="http://d3js.org/d3.v3.min.js">
+</scrpit>
+<script src="scripts.js"></script>

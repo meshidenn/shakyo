@@ -1,0 +1,8 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<div id='viz></div>
+
+<script type="text/javastript"
+	src="script.js" async></script>
